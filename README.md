@@ -1,4 +1,4 @@
-# peptoid-sequence-tools
+# PeptoidSeq
 
 ## Description
 This Python package was developed by the Knight Lab at UNC Chapel Hill to analyze the sequence of a peptoid composed of glycine or N-butylglycine monomers from mass peaks in a MALDI TOF-TOF spectrum. 
