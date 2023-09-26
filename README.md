@@ -32,7 +32,7 @@ Data will be output as a single Excel workbook in the output folder. In the case
 
 ### To run from terminal:
     
-    seq_match -i "/path/to/input_folder" -o "/path/to/output_folder"
+    peptoid_seq -i "/path/to/input_folder" -o "/path/to/output_folder"
 
 Instead of specifying an input or output folder, you can also navigate to your data input folder in the terminal and run the script.
 The current working directory will be used as default.
@@ -41,5 +41,5 @@ Use the help `-h` tag to see more options.
 ### To run in Python:
 In a Python environment, import the Python function:
 
-    from seq_match import seq_match
-    seq_match(input_folder, output_folder)
+    from peptoid_seq import peptoid_seq
+    peptoid_seq(input_folder, output_folder)
